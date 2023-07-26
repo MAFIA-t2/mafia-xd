@@ -1,5 +1,3 @@
-=== stderr ===
-
 Traceback (most recent call last):
   File "/usr/local/python-3.8.1/lib/python3.8/site-packages/urllib3/connection.py", line 200, in _new_conn
     sock = connection.create_connection(
@@ -53,8 +51,3 @@ Traceback (most recent call last):
   File "/usr/local/python-3.8.1/lib/python3.8/site-packages/requests/adapters.py", line 519, in send
     raise ConnectionError(e, request=request)
 requests.exceptions.ConnectionError: HTTPSConnectionPool(host='raw.githubusercontent.com', port=443): Max retries exceeded with url: /Ramxantanha/data/main/strings.txt (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f6410390940>: Failed to resolve 'raw.githubusercontent.com' ([Errno -3] Temporary failure in name resolution)"))
-
-
-=== message ===
-
-Exited with error status 1
